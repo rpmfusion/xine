@@ -1,0 +1,17 @@
+--- xine-ui-0.99.5/misc/desktops/xine.desktop~	2005-08-25 19:16:45.000000000 +0300
++++ xine-ui-0.99.5/misc/desktops/xine.desktop	2007-07-13 17:40:06.000000000 +0300
+@@ -1,10 +1,10 @@
+ [Desktop Entry]
+-Encoding=UTF-8
+-Name=xine
+-Comment=Video Player
++Name=Xine
++GenericName=Media Player
+ Exec=xine
+ MimeType=video/mpeg;video/quicktime;video/x-msvideo;video/x-anim;audio/x-mp3;audio/x-mp2;
+ Icon=xine
+ Terminal=false
+ Type=Application
+-Categories=Application;AudioVideo;Player;
++Categories=AudioVideo;Player;
++StartupWMClass=xine
