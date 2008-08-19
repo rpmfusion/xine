@@ -3,7 +3,7 @@
 Summary:        Free multimedia player
 Name:           xine
 Version:        0.99.5
-Release:        2%{?dist}
+Release:        2%{?dist}.1
 License:        GPL
 Group:          Applications/Multimedia
 URL:            http://xinehq.de/
@@ -17,7 +17,7 @@ BuildRequires:  xine-lib-devel >= 1.1.0
 BuildRequires:  aalib-devel >= 1.2.0
 BuildRequires:  libpng-devel gettext ncurses-devel
 BuildRequires:  libtermcap-devel desktop-file-utils readline-devel
-BuildRequires:  curl-devel >= 7.10.2 lirc-devel libcaca-devel
+BuildRequires:  curl-devel >= 7.10.2 lirc-libs lirc-devel libcaca-devel
 BuildRequires:  libXxf86vm-devel libXv-devel libXinerama-devel libXtst-devel
 BuildRequires:  libXt-devel libXft-devel
 # libXext-devel and fontconfig-devel should be pulled in by other libX*-devel
@@ -132,6 +132,9 @@ fi
 # --------------------------------------------------------------------
 
 %changelog
+* Tue Aug 19 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 0.99.5-2.1
+- add lirc-libs as BR to hopefully circumvent a F8 buildsys issue
+
 * Mon Aug 04 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 0.99.5-2
 - rebuild
 
