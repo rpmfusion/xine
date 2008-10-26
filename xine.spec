@@ -3,7 +3,7 @@
 Summary:        Free multimedia player
 Name:           xine
 Version:        0.99.5
-Release:        2%{?dist}.1
+Release:        4%{?dist}
 License:        GPL
 Group:          Applications/Multimedia
 URL:            http://xinehq.de/
@@ -132,6 +132,9 @@ fi
 # --------------------------------------------------------------------
 
 %changelog
+* Sun Oct 26 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 0.99.5-4
+- rebuilt
+
 * Tue Aug 19 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 0.99.5-2.1
 - add lirc-libs as BR to hopefully circumvent a F8 buildsys issue
 
