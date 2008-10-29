@@ -3,7 +3,7 @@
 Summary:        Free multimedia player
 Name:           xine
 Version:        0.99.5
-Release:        4%{?dist}
+Release:        5%{?dist}
 License:        GPL
 Group:          Applications/Multimedia
 URL:            http://xinehq.de/
@@ -132,6 +132,9 @@ fi
 # --------------------------------------------------------------------
 
 %changelog
+* Wed Oct 29 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 0.99.5-5
+- rebuilt
+
 * Sun Oct 26 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 0.99.5-4
 - rebuilt
 
