@@ -3,7 +3,7 @@
 Summary:        Free multimedia player
 Name:           xine
 Version:        0.99.5
-Release:        5%{?dist}
+Release:        6%{?dist}
 License:        GPL
 Group:          Applications/Multimedia
 URL:            http://xinehq.de/
@@ -132,6 +132,9 @@ fi
 # --------------------------------------------------------------------
 
 %changelog
+* Tue May 12 2009 Xavier Lamien <lxtnow@gmail.com> - 0.99.5-6
+- Rebuild.
+
 * Sun May 10 2009 Xavier Lamien <lxtnow@gmail.com> - 0.99.5-5
 - Rebuild against new libcaca.
 
